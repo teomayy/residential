@@ -1,0 +1,409 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cormorantgaramond/v9/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhvuQ.ttf) format('truetype');
+}
+body {
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+  line-height: 1.45em;
+  font-weight: 400;
+  color: #615e5e;
+  text-align: center;
+}
+p,
+a {
+  margin: 10px 0;
+  line-height: 1.45em;
+  font-weight: 500;
+}
+#rcl-page-header {
+  background-color: rgba(255, 255, 255, 0);
+  height: 950px;
+  background-image: url(/img/586.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+.rcl-page-header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.rcl-divided-header-left-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.rcl-header-navigation {
+  margin: 0 24px;
+  text-transform: uppercase;
+}
+.widgeht-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+.btn-header {
+  color: #fff;
+  text-align: center;
+  border: 1px solid #c28562;
+  width: 14rem;
+}
+.rcl-header-navigation {
+  margin: 0 24px;
+}
+.logo-panda {
+  margin: auto 35px;
+}
+.panda-logo {
+  width: 50px;
+}
+#first-floor {
+  padding: 7% 0;
+}
+.info-holder {
+  padding: 0 0 60px;
+}
+.name-holder h1 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.09em;
+  letter-spacing: 0.15em;
+}
+.description-sold {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1px 35px 1px 40px;
+  font-size: 11px;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #b48a16;
+  color: #fff;
+}
+.card-text {
+  font-size: 13px;
+  letter-spacing: .6em;
+  font-family: 'Raleway';
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d7926b;
+}
+.desription-holder {
+  font-size: 13px;
+  letter-spacing: .6em;
+  font-family: 'Raleway';
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #d7926b;
+}
+.apartment-item {
+  width: 100%;
+  margin: 0 0 60px;
+  vertical-align: top;
+  min-height: 1px;
+}
+.media-image {
+  width: 360px;
+}
+.apartment-item h5 {
+  margin: 26px 0;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.45em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+.qodef-h5 a,
+h5 a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+.qodef-h5 a:hover,
+h5 a:hover {
+  color: #d7926b;
+}
+.feature-icon {
+  width: 55px;
+  height: 55px;
+}
+.phi-features-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.phi-feature {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.phi-feature-s {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.feature-title {
+  font-family: 'Cormorant Garamond', serif;
+  padding-top: 4px;
+  font-weight: 500;
+}
+#second-floor {
+  padding: 7% 0;
+  text-align: center;
+  background-image: url(/img/light-gray.jpg);
+}
+#third-floor {
+  padding: 7% 0;
+}
+#page-footer-top-area {
+  text-align: center;
+  padding: 200px 0 54px;
+  background-color: #19130b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0 solid rgba(12, 7, 5, 0.1);
+}
+.fotter-inner {
+  font-family: 'Cormorant Garamond', serif;
+}
+.footer-widgets {
+  width: 25%;
+  text-align: left;
+}
+#page-footer-top-area .widget-text {
+  color: #ccc;
+}
+.widget-title {
+  text-transform: uppercase;
+  color: #fff;
+}
+.textwidget {
+  margin: 10px 0;
+  line-height: 1.45em;
+  font-weight: 500;
+  display: block;
+  color: #fff;
+  padding-bottom: 9px;
+}
+a {
+  color: #b2b2b2;
+}
+.button-fotter {
+  text-align: left;
+}
+#sumbit {
+  text-align: left;
+  margin-top: 10px;
+  width: 74px;
+  height: 40px;
+}
+.fab {
+  padding-top: 7px;
+  width: 2.2em;
+  height: 2em;
+  border: 1px solid;
+  border-color: rgba(194, 133, 98, 0.5);
+  border-radius: 50%;
+  font-size: 15px;
+  line-height: 2em;
+  text-align: center;
+  color: #c28562;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.icon-fot {
+  margin-left: 14px;
+}
+input {
+  -webkit-columns: #636363;
+          columns: #636363;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 0 20px;
+  padding: 7px 20px 7px 0;
+  font-family: Raleway;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .6em;
+  border: none;
+  outline: 0;
+  border-radius: 0;
+  cursor: pointer;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out, border-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out, border-color 0.2s ease-out;
+  border-bottom: 1px solid #474747;
+  -webkit-writing-mode: horizontal-tb !important;
+      -ms-writing-mode: lr-tb !important;
+          writing-mode: horizontal-tb !important;
+  color: #fff;
+}
+@media (max-width: 575.98px) {
+  .widgeht-holder {
+    display: none;
+  }
+  .logo-panda {
+    display: none;
+    text-align: left;
+  }
+  #rcl-page-header {
+    display: none;
+  }
+  .bg-header {
+    background-image: url(/img/586.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+  }
+  .media-image {
+    width: 100%;
+    margin: auto;
+  }
+  .footer-widgets {
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .widgeht-holder {
+    display: none;
+  }
+  .logo-panda {
+    display: none;
+    text-align: left;
+  }
+  #rcl-page-header {
+    display: none;
+  }
+  .bg-header {
+    background-image: url(/img/586.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+  }
+  .apartment-item {
+    width: auto;
+  }
+  .media-image {
+    width: 30rem;
+  }
+  .apartment-item h5 {
+    font-size: 2rem;
+  }
+  .footer-widgets {
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .widgeht-holder {
+    display: none;
+  }
+  .logo-panda {
+    display: none;
+    text-align: left;
+  }
+  #rcl-page-header {
+    display: none;
+  }
+  .bg-header {
+    background-image: url(/img/586.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+  }
+  .media-image {
+    width: 20rem;
+    margin: auto;
+    margin-top: 7%;
+  }
+  .phi-features-holder {
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-widgets {
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo-panda-left {
+    display: none;
+  }
+  #rcl-mobile-page-header {
+    display: none;
+  }
+  .media-image {
+    width: 18rem;
+  }
+  .widgeht-holder {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .logo-panda-left {
+    display: none;
+  }
+  #rcl-mobile-page-header {
+    display: none;
+  }
+}
