@@ -43,7 +43,7 @@ a {
 #rcl-page-header {
   background-color: rgba(255, 255, 255, 0);
   height: 950px;
-  background-image: url(img/586.jpg);
+  background-image: url(../img/586.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: left;
